@@ -13,7 +13,9 @@ let snakeArr = [
 
 food = {x: 6, y: 7};
 
-musicSound.play();
+setTimeout( () => {
+    musicSound.play();
+} ,1000)
 
 // Game Functions
 function main(ctime) {
